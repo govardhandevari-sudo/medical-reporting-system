@@ -11,7 +11,8 @@
   },
   "scripts": {
     "dev": "node src/server.js",
-     "start": "node src/server.js"
+    "start": "node src/server.js",
+   "import-db": "node src/scripts/importSql.js"
   },
   "dependencies": {
     "express": "^4.19.2",
