@@ -1,0 +1,34 @@
+
+:root {
+  --primary-color: #1677ff;
+  --background-color: #f5f6fa;
+  --text-color: #333;
+  --header-bg: #fff;
+  --footer-bg: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--background-color);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-table {
+  background: white;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .ant-layout-sider {
+    position: fixed !important;
+    z-index: 1000;
+    height: 100%;
+  }
+  .ant-layout-content {
+    margin-left: 0 !important;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "info": { "name": "Medical Reports API", "_postman_id": "auto-gen", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "item": [
+    {
+      "name": "Doctor Share Report",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/reports/doctor-share?from=2025-12-01&to=2025-12-31" }
+      }
+    }
+  ]
+}
